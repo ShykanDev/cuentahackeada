@@ -8,7 +8,7 @@
 
       </slot>
     </main>
-    <footer class="relative w-full p-8 text-white bg-gray-800 font-roboto">
+    <footer class="relative w-full p-8 text-white bg-sky-950 font-roboto">
       <div class="absolute top-4 left-4">
         <i class="text-3xl text-white fas fa-shield-alt">
         </i>

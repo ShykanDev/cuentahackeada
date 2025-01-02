@@ -1,44 +1,49 @@
 <template>
   <div
-    class="sticky top-0 z-50 flex items-center justify-between w-full px-3 py-2 text-white bg-orange-400 rounded-b-lg md:py-3 font-poppins ">
+    class="sticky top-0 z-50 flex items-center justify-between w-full px-3 py-2 text-white rounded-b-lg bg-sky-600 md:py-3 font-poppins ">
     <!-- Logo -->
     <div class="flex items-center">
-      <img alt="Logo de la empresa con un diseño moderno y minimalista" class="w-10 h-10 mr-2" height="50"
-        src="../assets/sslLogo.png" width="50" />
-      <span class="text-xl font-bold text-white font-rubik">
+      <img alt="Logo SSL" class="w-8 h-10 mr-2" src="../assets/sslwhite.png" />
+      <span class="text-xl font-bold text-white font-lexend">
         www.antihackeo.com
       </span>
     </div>
 
     <!-- Navigation Menu -->
-    <nav class="hidden space-x-6 md:flex">
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'home' }">
+    <nav class="hidden space-x-6 md:flex font-lexend">
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline hover:rounded-full "
+        :to="{ name: 'home' }">
         Inicio
       </RouterLink>
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'comments' }">
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline"
+        :to="{ name: 'hackingTypes' }">
+        Tipos de hackeo
+      </RouterLink>
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline" :to="{ name: 'comments' }">
         Comentarios
       </RouterLink>
-      <!-- <a class="flex items-center p-2 rounded-lg hover:text-blue-100" href="#">
+      <!-- <a class="flex items-center p-2 rounded-lg hover:text-white hover:underline" href="#">
         Ayuda
       </a> -->
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'login' }">
-        Iniciar sesión
-      </RouterLink>
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'register' }">
-        Registrarse
-      </RouterLink>
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'contact' }">
+
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline" :to="{ name: 'contact' }">
         Contacto
       </RouterLink>
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'register' }">
-        Registrarse
-      </RouterLink>
 
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'about' }">
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline" :to="{ name: 'about' }">
         Nosotros
       </RouterLink>
-      <RouterLink class="flex items-center p-2 rounded-lg hover:text-blue-100" :to="{ name: 'privacy' }">
-        Politica de Privacidad
+      <RouterLink class="flex items-center p-2 rounded-lg hover:text-white hover:underline" :to="{ name: 'about' }">
+        Política
+      </RouterLink>
+
+      <RouterLink class="flex items-center p-2 bg-white rounded-lg text-sky-600 hover:text-sky-700"
+        :to="{ name: 'login' }">
+        Iniciar sesión
+      </RouterLink>
+      <RouterLink class="flex items-center p-2 rounded-lg bg-sky-800 hover:text-white hover:underline"
+        :to="{ name: 'register' }">
+        Registrarse
       </RouterLink>
     </nav>
 
@@ -50,20 +55,20 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div v-if="isMenuOpen" class="absolute left-0 w-full bg-orange-500 md:hidden top-full">
-      <a class="block px-3 py-2 hover:text-blue-100" href="#">
+    <div v-if="isMenuOpen" class="absolute left-0 w-full bg-sky-500 md:hidden top-full">
+      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-home"></i> Home
       </a>
-      <a class="block px-3 py-2 hover:text-blue-100" href="#">
+      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-book"></i> Historias
       </a>
-      <a class="block px-3 py-2 hover:text-blue-100" href="#">
+      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-lightbulb"></i> Consejos
       </a>
-      <a class="block px-3 py-2 hover:text-blue-100" href="#">
+      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-sign-in-alt"></i> Iniciar sesión
       </a>
-      <a class="block px-3 py-2 hover:text-blue-100" href="#">
+      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-user-plus"></i> Registrarse
       </a>
     </div>

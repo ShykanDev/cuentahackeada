@@ -1,7 +1,7 @@
 <template>
   <MainLayout>
     <template #main>
-      <div class="flex items-center p-4 mx-auto bg-orange-500 max-w-8xl font-poppins md:h-screen">
+      <div class="flex items-center p-4 mx-auto bg-sky-950 max-w-8xl font-poppins md:h-screen">
         <div
           class="grid md:grid-cols-3 items-center shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-xl overflow-hidden">
           <div
@@ -84,7 +84,7 @@
                 <input id="remember-me" name="remember-me" type="checkbox"
                   class="w-4 h-4 text-blue-600 border-gray-300 rounded shrink-0 focus:ring-blue-500" />
                 <label for="remember-me" class="block ml-3 text-sm text-gray-800">
-                  Acepto los <RouterLink class="font-semibold text-blue-600 hover:underline " :to="{ name: 'home' }">
+                  Acepto los <RouterLink class="font-semibold text-blue-600 hover:underline " :to="{ name: 'terms' }">
                     Terminos y condiciones</RouterLink>
                 </label>
               </div>

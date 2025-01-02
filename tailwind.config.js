@@ -8,6 +8,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         rubik: ['Rubik Vinyl', 'sans-serif'],
         afacad: ['Afacad Flux', 'sans-serif'],
+        lexend: ['Lexend Deca', 'sans-serif'],
       },
     },
   },

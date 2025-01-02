@@ -1,10 +1,10 @@
 <template>
   <MainLayout>
     <template #main>
-      <div id="app" class="container p-4 mx-auto">
-        <h1 class="mb-6 text-6xl font-bold text-center font-afacad">Experiencias de Estafas</h1>
-        <div v-for="comment in comments" :key="comment.id" class="p-4 mb-4 bg-white rounded-lg shadow-md"
-          :class="`animate-fade-left animate-delay-[${comment.id * 500}ms]`">
+      <div id="app" class="w-full p-4 bg-white">
+        <h1 class="mb-6 text-6xl font-bold text-center font-lexend text-sky-800">Experiencias de Estafas</h1>
+        <div v-for="comment in comments" :key="comment.id"
+          class="p-4 mb-4 ease-out rounded-lg shadow-md bg-slate-50 hover:border-2 hover:border-sky-500 hover:shadow-lg">
           <div class="flex items-center mb-2">
             <i class="mr-4 text-4xl fas fa-user-circle"></i>
             <div>
@@ -17,19 +17,29 @@
             <button class="text-blue-500 hover:text-blue-700">
               <i class="fas fa-thumbs-up"></i> Me gusta
             </button>
-            <button class="p-1 text-white bg-orange-500 rounded-md hover:text-red-700">
+            <button class="p-1 text-white bg-orange-500 rounded-md hover:scale-105">
               <i class="fas fa-chat"></i> Responder
             </button>
           </div>
         </div>
       </div>
-      <section class="flex justify-center my-3 ">
-        <!-- button to add commment orange -->
+      <section class="p-6 bg-gray-100 rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-sky-950 font-lexend mb-4 flex items-center">
+          <i class="fas fa-comment-dots text-sky-500 mr-3"></i> Agregue un nuevo comentario
+        </h2>
+        <textarea name="comment" id="comment"
+          class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+          placeholder="Escribe tu comentario aquí..." rows="5">
+  </textarea>
+      </section>
+
+      <section class="flex justify-center my-6">
         <button
-          class="flex items-center justify-center px-4 py-2 text-white bg-orange-500 rounded-lg font-poppins hover:bg-orange-600">
-          Agregar comentario
+          class="flex items-center justify-center px-6 py-3 text-white bg-orange-500 rounded-lg font-poppins text-lg font-medium hover:bg-orange-600 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105">
+          <i class="fas fa-paper-plane mr-3"></i> Agregar comentario
         </button>
       </section>
+
     </template>
   </MainLayout>
 </template>
@@ -145,6 +155,10 @@ const comments = ref([
     image: 'https://placehold.co/100x100?text=Profile+Image&bg=gray'
   }
 ]);
+
+const liked = ref(false);
+
+const toggleLike = () => liked.value = !liked.value;
 </script>
 
 <style scoped></style>

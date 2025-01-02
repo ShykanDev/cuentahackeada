@@ -1,229 +1,170 @@
 <template>
-  <section class="py-12">
-    <div class="container px-4 mx-auto font-poppins">
-      <h2 class="mb-8 text-3xl font-bold text-center text-teal-800">Cómo Proteger su Cuenta Bancaria</h2>
-      <p class="mb-8 text-center">Tome el control de su seguridad financiera. Descubra medidas efectivas para proteger
-        su cuenta bancaria en México y asegurar el dinero que tanto esfuerzo le ha costado ganar.</p>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-green-500 fas fa-list-alt"></i> Resumen del Artículo
+  <section class="py-2 font-poppins">
+    <div class="container px-6 mx-auto">
+      <h2 class="mb-8 text-5xl font-bold text-center text-sky-800">
+        Fortalezca la Seguridad de tu Dinero
+      </h2>
+      <p class="mb-8 text-center text-gray-700">
+        Conoce medidas convencionales para blindar tus cuentas bancarias y evitar sorpresas desagradables.
+      </p>
+      <!-- Card 1 -->
+      <div class="p-6 mb-10 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img alt="Ilustración de un escudo digital protegiendo datos financieros"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/IoRMBdaZ5a6FGRYQ4IWtbMA5qxeFGU9qINnxbICTwxeVa6AUA.jpg"
+            width="600" />
+          <img alt="Ilustración de un hacker intentando acceder a datos financieros"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/BkCtQhmngqp6NxIEm7PalTqI0rvYVnDyFL5Jx0NLl9onmOAF.jpg"
+            width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-purple-800">
+          <i class="mr-3 text-purple-600 fas fa-shield-virus">
+          </i>
+          Riesgos Emergentes en la Banca Digital
         </h3>
-        <ul class="list-disc list-inside">
-          <li>Conocer las estafas comunes puede ayudarle a evitar ser víctima.</li>
-          <li>Las prácticas de contraseña segura son esenciales para la protección de su cuenta.</li>
-          <li>Mantenga sus dispositivos actualizados y sea cauteloso con el wifi público y los cajeros automáticos
-            sospechosos.</li>
-          <li>Monitoree su cuenta regularmente y considere distribuir sus fondos en varias cuentas.</li>
-          <li>Si sospecha que su cuenta ha sido comprometida, contacte a su banco inmediatamente y cambie sus
-            contraseñas.</li>
-        </ul>
+        <p class="text-gray-600">
+          Más allá de los fraudes tradicionales, existen nuevos vectores de ataque como la manipulación de datos en
+          redes privadas y los accesos indirectos a través de apps de terceros. Entender estas amenazas puede marcar la
+          diferencia. Los ciberdelincuentes están constantemente desarrollando nuevas técnicas para acceder a tus datos
+          financieros. Mantente informado sobre las últimas tendencias en ciberseguridad y asegúrate de que tus
+          dispositivos y aplicaciones estén siempre actualizados. Además, considera el uso de autenticación multifactor
+          (MFA) para añadir una capa extra de seguridad a tus cuentas. La MFA requiere que proporciones dos o más
+          verificaciones para acceder a tu cuenta, lo que hace más difícil para los ciberdelincuentes acceder a tus
+          datos.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-red-500 fas fa-exclamation-triangle"></i> Imagine el Escenario
+      <!-- Card 2 -->
+      <div class="p-6 mb-10 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img alt="Ilustración de un cerebro con engranajes representando la psicología del fraude"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/yVuHO8jJU1abCxBlnyaknSxDSNKYr9Y1lihIRjjevqtNNdAKA.jpg"
+            width="600" />
+          <img alt="Ilustración de una persona siendo manipulada emocionalmente a través de un dispositivo"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/02901bcd-2e84-4299-b914-31ce69cebbe0.jpeg" width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-green-800">
+          <i class="mr-3 text-green-600 fas fa-brain">
+          </i>
+          Psicología del Fraude
         </h3>
-        <p>Imagine que inicia sesión en su cuenta bancaria en Banamex, Santander, BBVA o cualquier otro banco mexicano y
-          descubre que ha sido hackeada o que ha sufrido un fraude. Ya sea que encuentre cargos no autorizados o que su
-          saldo se haya agotado, la sensación de vulnerabilidad y desamparo es inevitable. Los ciberdelincuentes siempre
-          buscan nuevas formas de explotar vulnerabilidades y robar información sensible. Desde el phishing hasta los
-          ataques de malware, los riesgos son reales y las consecuencias pueden ser graves.</p>
+        <p class="text-gray-600">
+          Los ciberdelincuentes emplean tácticas de ingeniería social para manipularte emocionalmente. Detecta señales
+          como urgencia excesiva, uso de miedo o confianza exagerada en mensajes que aparentan ser oficiales. La
+          ingeniería social es una técnica común donde los estafadores intentan manipular tus emociones para que reveles
+          información sensible. Mantén la calma y verifica siempre la autenticidad de los mensajes que recibes. No
+          respondas a correos electrónicos o mensajes de texto que te pidan información personal o financiera sin antes
+          confirmar su legitimidad. Además, ten cuidado con las llamadas telefónicas no solicitadas que te piden
+          información sensible.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-yellow-500 fas fa-shield-alt"></i> Impacto de una Cuenta Hackeada
+      <!-- Card 3 -->
+      <div class="p-6 mb-10 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img alt="Ilustración de una red de computadoras con un candado representando la seguridad en redes locales"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/6CnALkOHQf1cPCyPB0Y6jQkDUfMGZ71zdtJPY4NhTq4la6AUA.jpg"
+            width="600" />
+          <img alt="Ilustración de un hacker intentando acceder a una red local"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/VSINCYXyIZYdOVrgufCG3L2QlL4AAM1fF0CbBPblfWaG10BoA.jpg"
+            width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-red-800">
+          <i class="mr-3 text-red-600 fas fa-network-wired">
+          </i>
+          Actividades Sospechosas en Redes Locales
         </h3>
-        <p>El impacto de una cuenta hackeada va más allá de la pérdida financiera. También implica el estrés y la
-          pérdida de tiempo que conlleva lidiar con cheques sin fondos, pagos atrasados y la molestia de cerrar su
-          cuenta y abrir una nueva. En algunos casos, puede llevar meses o incluso años recuperarse por completo. La
-          buena noticia es que saber cómo proteger su cuenta bancaria puede ayudarle a reducir el riesgo de convertirse
-          en víctima.</p>
+        <p class="text-gray-600">
+          Algunos hackers se enfocan en capturar datos dentro de redes privadas, como las de tu oficina o incluso tu
+          hogar. Usar firewalls personalizados y dispositivos aislados puede reducir este riesgo. Además, asegúrate de
+          que tu red Wi-Fi esté protegida con una contraseña fuerte y considera el uso de una VPN para encriptar tu
+          tráfico de internet. Mantén todos tus dispositivos conectados a la red actualizados con los últimos parches de
+          seguridad y evita conectar dispositivos desconocidos a tu red. También es recomendable desactivar la función
+          de descubrimiento de red para evitar que dispositivos no autorizados se conecten a tu red.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-blue-500 fas fa-lock"></i> Estrategias para Proteger su Cuenta
+      <!-- Card 4 -->
+      <div class="p-6 mb-10 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img alt="Ilustración de un hacker recolectando información de manera silenciosa"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/DfQwhnIY9E1VbCb6h6TNRnotCZq1nGjdHMRDmdbn9j5LNdAKA.jpg"
+            width="600" />
+          <img alt="Ilustración de un sistema de monitoreo detectando actividad sospechosa"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/BI5TCLTjKMqPHpfSbH5X1OXtue0eg03vsWWHZCVbIo3y00BoA.jpg"
+            width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-blue-800">
+          <i class="mr-3 text-blue-600 fas fa-user-secret">
+          </i>
+          Protección Contra Ataques Silenciosos
         </h3>
-        <ol class="list-decimal list-inside">
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-purple-500 fas fa-eye"></i> Conozca las Estafas Comunes
-            </h4>
-            <p>Aprender a proteger su cuenta bancaria comienza con entender cómo operan los hackers. Tenga cuidado con
-              estas estafas comunes:</p>
-            <ul class="ml-4 list-disc list-inside">
-              <li>Phishing: Correos electrónicos, llamadas o mensajes de texto fraudulentos que aparentan ser de su
-                banco y le solicitan información sensible. Por ejemplo, un correo que parece ser de BBVA pidiendo que
-                verifique su información personal.</li>
-              <li>Ataques de malware: Software malicioso diseñado para infiltrarse en su dispositivo y robar datos
-                sensibles. Esto puede ocurrir al descargar archivos adjuntos de correos electrónicos infectados o al
-                visitar sitios web vulnerados.</li>
-              <li>Ataques de fuerza bruta: Herramientas automatizadas que intentan adivinar sus credenciales de inicio
-                de sesión. El uso de contraseñas débiles y fáciles de adivinar aumenta la vulnerabilidad a estos
-                ataques.</li>
-              <li>Dispositivos de skimming: Lectores de tarjeta maliciosos colocados en cajeros automáticos o máquinas
-                de punto de venta. Estos dispositivos pueden capturar la información de su tarjeta cuando usted la
-                inserta o la desliza.</li>
-            </ul>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-orange-500 fas fa-key"></i> Prácticas de Contraseña Segura
-            </h4>
-            <p>Su contraseña es la primera línea de defensa. Siga estas prácticas:</p>
-            <ul class="ml-4 list-disc list-inside">
-              <li>Use una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.</li>
-              <li>Cree contraseñas de al menos 12 caracteres.</li>
-              <li>Evite usar información personal, como su nombre, fecha de nacimiento, dirección o el nombre de su
-                mascota.</li>
-              <li>No use palabras o frases comunes que se puedan adivinar fácilmente.</li>
-              <li>Cree una contraseña única para cada cuenta, ya sea en Banamex, Santander, BBVA, PayPal, Mercado Pago,
-                etc.</li>
-              <li>Actualice sus contraseñas regularmente.</li>
-            </ul>
-            <p>Considere usar un administrador de contraseñas para mejorar la seguridad. Herramientas como LastPass,
-              1Password o Dashlane pueden ayudarle a generar, cifrar, guardar y administrar sus contraseñas de manera
-              segura.</p>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-green-500 fas fa-lock"></i> Proteja su PIN
-            </h4>
-            <p>Nunca comparta su PIN y evite usar números fáciles de adivinar, como su cumpleaños, dirección o número de
-              teléfono. Cámbielo regularmente y cúbralo al ingresarlo. Evite usar el mismo PIN para varias cuentas.</p>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-blue-500 fas fa-mobile-alt"></i> Proteja sus Dispositivos de Banca
-            </h4>
-            <p>Habilite el cifrado del dispositivo, use un código de acceso seguro, habilite la limpieza a distancia y
-              use la autenticación biométrica. Instale bloqueadores de anuncios y actualice sus aplicaciones de banca y
-              el software de su dispositivo regularmente. Evite usar dispositivos más viejos que no sean compatibles con
-              las actualizaciones de seguridad más recientes.</p>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-purple-500 fas fa-wifi"></i> Cuidado con el Wifi Público y los Cajeros Automáticos
-            </h4>
-            <p>Evite acceder a la banca móvil o en línea en redes de wifi público. Verifique el nombre de la red y
-              considere usar una VPN. Elija cajeros automáticos que pertenezcan a la red de su banco y evite los que se
-              encuentren en zonas aisladas. Antes de insertar su tarjeta, examine el cajero automático para identificar
-              cualquier señal de manipulación.</p>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-orange-500 fas fa-chart-line"></i> Monitoree su Actividad Bancaria
-            </h4>
-            <p>Revise sus transacciones bancarias regularmente y configure alertas de cuenta para recibir notificaciones
-              inmediatas. Muchos bancos en México, como Banamex, Santander y BBVA, ofrecen alertas de cuenta para
-              notificarle ciertas actividades en tiempo real mediante un correo electrónico, mensaje de texto o a través
-              de la aplicación móvil de su banco.</p>
-          </li>
-          <li>
-            <h4 class="flex items-center mb-2 text-xl font-semibold">
-              <i class="mr-2 text-pink-500 fas fa-piggy-bank"></i> Abra Varias Cuentas
-            </h4>
-            <p>Distribuir su dinero en varias cuentas puede limitar los posibles daños de una vulneración de seguridad.
-              Por ejemplo, podría tener una cuenta en Banamex para los gastos diarios, otra en Santander para su fondo
-              para emergencias y una tercera cuenta en BBVA para las inversiones a largo plazo. Esta separación permite
-              que sea más fácil monitorear los gastos, ceñirse a su presupuesto y trabajar para lograr metas financieras
-              específicas.</p>
-          </li>
-        </ol>
+        <p class="text-gray-600">
+          No todos los ataques son evidentes. Algunos ciberdelincuentes se infiltran para recolectar información a largo
+          plazo. Usa herramientas que monitoricen tus cuentas y detecten accesos no habituales. Implementa sistemas de
+          alerta que te notifiquen sobre cualquier actividad inusual en tus cuentas y revisa regularmente tus estados de
+          cuenta para detectar transacciones no autorizadas. Considera el uso de software de monitoreo de seguridad que
+          pueda detectar y bloquear actividades sospechosas en tiempo real. Además, asegúrate de que tus contraseñas
+          sean fuertes y únicas para cada cuenta, y utiliza un gestor de contraseñas para mantenerlas seguras.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-red-500 fas fa-exclamation-circle"></i> Qué Hacer si Identifica Actividades Sospechosas
+      <!-- Card 5 -->
+      <div class="p-6 mb-10 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img alt="Ilustración de una persona recibiendo ayuda de un banco para proteger su cuenta"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/1U7dJm8jmlKfDaAoq6xNvnABl3mG0c9SfLY2eHP5Zfk2ppDQB.jpg"
+            width="600" />
+          <img alt="Ilustración de un banco ofreciendo servicios de seguridad avanzados"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/79d9c048-aa7a-4b27-a2f6-627371476503.jpeg" width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-yellow-800">
+          <i class="mr-3 text-yellow-600 fas fa-hands-helping">
+          </i>
+          Involucra a Tu Banco
         </h3>
-        <p>Si sospecha que su cuenta ha sido vulnerada, tome estas medidas:</p>
-        <ul class="ml-4 list-disc list-inside">
-          <li>Comuníquese con su banco de inmediato. La mayoría de los bancos en México tienen números de teléfono
-            específicos para reportar fraude. Por lo general, puede encontrar el número en el reverso de su tarjeta de
-            crédito o débito o en el sitio web del banco. Informe al representante sobre las transacciones no
-            autorizadas y pídale que congele o cierre su cuenta para evitar pérdidas adicionales.</li>
-          <li>Cambie sus credenciales de inicio de sesión. Elija de inmediato una nueva contraseña única y segura que no
-            haya usado en otras cuentas. Si su banco ofrece la autenticación de dos factores y la autenticación
-            biométrica, habilite dichas características para incorporar un nivel de seguridad adicional.</li>
-          <li>Revise sus transacciones recientes. Revise la actividad reciente de su cuenta e identifique cualquier
-            transacción que no reconozca. Enumere dichas transacciones, incluyendo la fecha, el monto y el nombre del
-            comercio. Necesitará esta información si va a presentar una disputa con el banco.</li>
-          <li>Presente una denuncia policial. Si ha sufrido una pérdida financiera significativa debido a un fraude,
-            considere presentar una denuncia policial. Es posible que le pidan este documento para ciertos tipos de
-            investigaciones de fraude.</li>
-          <li>Considere colocar una alerta de fraude en su informe de crédito. Comuníquese con una de las tres
-            principales agencias de informes de crédito (Equifax, Experian o TransUnion) y solicite que coloque una
-            alerta de fraude en su informe de crédito. Esto notifica a los posibles acreedores que deben tomar medidas
-            adicionales para verificar su identidad antes de extender un crédito en su nombre, lo que ayuda a prevenir
-            actividades fraudulentas adicionales.</li>
-        </ul>
+        <p class="text-gray-600">
+          Pregunta por sistemas avanzados de seguridad ofrecidos por tu banco, como seguros contra fraudes y bloqueos
+          automáticos por actividad inusual. Estos servicios suelen estar disponibles pero poco promovidos. Además,
+          muchos bancos ofrecen servicios de monitoreo y alertas que pueden ayudarte a detectar y prevenir fraudes antes
+          de que ocurran. Aprovecha estos servicios y mantente en contacto regular con tu banco para estar al tanto de
+          cualquier nueva medida de seguridad que puedan ofrecer. También es útil revisar periódicamente los términos y
+          condiciones de tu cuenta bancaria para asegurarte de que estás al tanto de todas las protecciones disponibles.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-yellow-500 fas fa-shield-alt"></i> Proteja sus Cuentas Financieras de Forma Proactiva
+      <!-- Card 6 -->
+      <div class="p-6 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <img
+            alt="Ilustración de múltiples dispositivos y plataformas digitales representando la diversificación digital"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/Vxqu25swiuI5O5fqIMZ8WvHeaZeBrfh9H9KAsAwcVReEVTHgC.jpg"
+            width="600" />
+          <img alt="Ilustración de una persona gestionando múltiples cuentas digitales"
+            class="object-cover w-full h-48 rounded-lg" height="400"
+            src="https://storage.googleapis.com/a1aa/image/fB2qbZQ1RaWBPSVRddn3JQRwMnKfzFfejD3fV3s2YCt9TTHgC.jpg"
+            width="600" />
+        </div>
+        <h3 class="flex items-center mt-4 mb-4 text-2xl font-semibold text-teal-800">
+          <i class="mr-3 text-teal-600 fas fa-sync-alt">
+          </i>
+          Estrategias de Diversificación Digital
         </h3>
-        <p>Tomar medidas proactivas para proteger sus cuentas bancarias puede minimizar el riesgo del acceso no
-          autorizado y permitirle actuar con rapidez si se produce un fraude. En México, servicios como PayPal y Mercado
-          Pago también ofrecen medidas de seguridad adicionales para proteger sus transacciones en línea.</p>
+        <p class="text-gray-600">
+          Considera utilizar múltiples plataformas y servicios para evitar la dependencia de una sola cuenta. Los
+          hackers suelen apuntar a cuentas con mayor actividad concentrada. Diversificar tus fondos en diferentes
+          cuentas y plataformas puede reducir el riesgo de pérdidas significativas en caso de un ataque exitoso. Además,
+          mantén un registro detallado de todas tus cuentas y transacciones para facilitar la detección de cualquier
+          actividad sospechosa. También es recomendable establecer límites de transacción en tus cuentas para minimizar
+          el impacto de cualquier actividad no autorizada.
+        </p>
       </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-orange-500 fas fa-lightbulb"></i> Ejemplos Prácticos de Protección
-        </h3>
-        <p>Aquí tiene algunos ejemplos prácticos de cómo puede proteger su cuenta bancaria en México:</p>
-        <ul class="ml-4 list-disc list-inside">
-          <li>Use la autenticación de dos factores (2FA) en todas sus cuentas bancarias. Por ejemplo, BBVA ofrece 2FA
-            mediante su aplicación móvil, donde puede recibir un código de verificación cada vez que inicie sesión.</li>
-          <li>Configurar alertas de transacciones en su cuenta de Santander para recibir notificaciones cada vez que se
-            realice una transacción superior a un monto determinado.</li>
-          <li>Utilice un administrador de contraseñas para generar y almacenar contraseñas seguras para todas sus
-            cuentas en línea, incluyendo su cuenta de PayPal y Mercado Pago.</li>
-          <li>Evite usar el mismo PIN para su tarjeta de débito de Banamex y su tarjeta de crédito de Santander. Cree
-            PINs únicos y difíciles de adivinar para cada tarjeta.</li>
-          <li>Instale una aplicación de bloqueo de anuncios en su dispositivo móvil para protegerse de anuncios
-            maliciosos que puedan intentar robar su información bancaria.</li>
-        </ul>
-      </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-purple-500 fas fa-info-circle"></i> Consejos Adicionales
-        </h3>
-        <p>Aquí tiene algunos consejos adicionales para proteger su cuenta bancaria en México:</p>
-        <ul class="ml-4 list-disc list-inside">
-          <li>Revise regularmente su informe de crédito para asegurarse de que no haya actividades sospechosas. Puede
-            solicitar un informe de crédito gratuito una vez al año de cada una de las tres principales agencias de
-            informes de crédito en México.</li>
-          <li>Evite compartir información personal o financiera en redes sociales. Los ciberdelincuentes pueden usar
-            esta información para intentar acceder a sus cuentas bancarias.</li>
-          <li>Desconfíe de las ofertas que parecen demasiado buenas para ser verdad. Los estafadores a menudo usan estas
-            tácticas para engañar a las personas y robar su información financiera.</li>
-          <li>Eduque a sus familiares y amigos sobre las prácticas de seguridad bancaria. La seguridad financiera es una
-            responsabilidad compartida y todos deben estar informados sobre cómo proteger sus cuentas.</li>
-        </ul>
-      </div>
-
-      <div class="mb-8">
-        <h3 class="flex items-center mb-4 text-2xl font-semibold">
-          <i class="mr-2 text-pink-500 fas fa-book"></i> Recursos Adicionales
-        </h3>
-        <p>Aquí tiene algunos recursos adicionales que puede utilizar para proteger su cuenta bancaria en México:</p>
-        <ul class="ml-4 list-disc list-inside">
-          <li>Visite el sitio web de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios
-            Financieros (CONDUSEF) para obtener más información sobre cómo proteger su cuenta bancaria y qué hacer si es
-            víctima de fraude.</li>
-          <li>Consulte las guías de seguridad de su banco. Muchos bancos en México, como Banamex, Santander y BBVA,
-            ofrecen guías y recursos en línea para ayudar a sus clientes a proteger sus cuentas bancarias.</li>
-          <li>Participe en talleres y seminarios sobre seguridad financiera. Muchas instituciones financieras y
-            organizaciones sin fines de lucro en México ofrecen talleres y seminarios gratuitos sobre cómo proteger su
-            cuenta bancaria y manejar sus finanzas de manera segura.</li>
-        </ul>
-      </div>
-
     </div>
   </section>
 </template>

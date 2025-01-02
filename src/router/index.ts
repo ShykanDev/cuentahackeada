@@ -47,6 +47,11 @@ const router = createRouter({
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/hackingTypes',
+      name: 'hackingTypes',
+      component: () => import('../views/HackingTypesView.vue'),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     return { top: 0 }
