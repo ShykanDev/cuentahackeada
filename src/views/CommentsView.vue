@@ -17,15 +17,17 @@
             <button class="text-blue-500 hover:text-blue-700">
               <i class="fas fa-thumbs-up"></i> Me gusta
             </button>
-            <button class="p-1 text-white bg-orange-500 rounded-md hover:scale-105">
-              <i class="fas fa-chat"></i> Responder
-            </button>
+            <a href="#responder">
+              <button class="p-1 text-white bg-orange-500 rounded-md hover:scale-105">
+                <i class="fas fa-chat"></i> Responder
+              </button>
+            </a>
           </div>
         </div>
       </div>
-      <section class="p-6 bg-gray-100 rounded-lg shadow-md">
-        <h2 class="text-3xl font-bold text-sky-950 font-lexend mb-4 flex items-center">
-          <i class="fas fa-comment-dots text-sky-500 mr-3"></i> Agregue un nuevo comentario
+      <section id="responder" class="p-6 bg-gray-100 rounded-lg shadow-md">
+        <h2 class="flex items-center mb-4 text-3xl font-bold text-sky-950 font-lexend">
+          <i class="mr-3 fas fa-comment-dots text-sky-500"></i> Agregue un nuevo comentario
         </h2>
         <textarea name="comment" id="comment"
           class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
@@ -35,8 +37,8 @@
 
       <section class="flex justify-center my-6">
         <button
-          class="flex items-center justify-center px-6 py-3 text-white bg-orange-500 rounded-lg font-poppins text-lg font-medium hover:bg-orange-600 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105">
-          <i class="fas fa-paper-plane mr-3"></i> Agregar comentario
+          class="flex items-center justify-center px-6 py-3 text-lg font-medium text-white transition-all duration-300 ease-in-out transform bg-orange-500 rounded-lg shadow-md font-poppins hover:bg-orange-600 hover:scale-105">
+          <i class="mr-3 fas fa-paper-plane"></i> Agregar comentario
         </button>
       </section>
 
