@@ -5,63 +5,131 @@
         <h1 class="mb-6 text-3xl font-bold text-center">Términos y Condiciones</h1>
         <div class="space-y-4">
           <div>
-            <h2 class="text-xl font-semibold">1. Aceptación de los términos</h2>
-            <p>Al crear una cuenta en nuestro sitio web, el usuario acepta y se compromete a cumplir con los términos y
-              condiciones establecidos en este acuerdo. Estos términos pueden ser modificados de manera periódica, y el
-              usuario debe revisar las actualizaciones de forma regular. El uso continuado del sitio implica la
-              aceptación de cualquier cambio.</p>
+            <h2 class="text-xl font-semibold">Aceptación de los Términos</h2>
+            <p>Al crear una cuenta en nuestro sitio web, el usuario reconoce haber leído, comprendido y aceptado todos
+              los términos y condiciones estipulados en este acuerdo. Estos términos están sujetos a modificaciones
+              periódicas, y es responsabilidad del usuario mantenerse informado de cualquier cambio. El acceso continuo
+              al sitio será interpretado como la aceptación de dichos cambios.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">2. Uso del sitio web</h2>
-            <p>El usuario se compromete a usar este sitio web de manera legal y conforme a la normativa vigente. Está
-              prohibido el uso indebido de la plataforma, el envío de contenido ilegal, difamatorio o que infrinja los
-              derechos de terceros. Cualquier comportamiento inapropiado puede resultar en la suspensión o eliminación
-              de la cuenta del usuario.</p>
+            <h2 class="text-xl font-semibold">Modificación de los Términos</h2>
+            <p>La empresa se reserva el derecho de modificar estos términos en cualquier momento. Cualquier modificación
+              será publicada en este documento, y se indicará la fecha de la última actualización. El usuario está
+              obligado a revisar regularmente los términos para estar al tanto de cualquier cambio relevante. El uso
+              continuo del sitio después de dichas modificaciones será considerado como aceptación de las mismas.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">3. Registro y responsabilidad sobre los datos</h2>
-            <p>Para acceder a las funcionalidades del sitio, el usuario deberá proporcionar su nombre, correo
-              electrónico y crear una contraseña. El usuario garantiza que la información proporcionada es precisa,
-              completa y veraz. Es su responsabilidad mantener la confidencialidad de sus credenciales y no compartirlas
-              con terceros. El sitio no será responsable de cualquier acceso no autorizado a la cuenta del usuario
-              debido a negligencia en el manejo de las credenciales.</p>
+            <h2 class="text-xl font-semibold">Uso Permitido del Sitio</h2>
+            <p>El usuario se compromete a utilizar el sitio web únicamente para fines legales, y de acuerdo con las
+              leyes locales, nacionales e internacionales que sean aplicables. Queda estrictamente prohibido utilizar la
+              plataforma para actividades ilícitas, como la difusión de contenido difamatorio, ofensivo o que infrinja
+              derechos de propiedad intelectual. Cualquier uso inapropiado puede resultar en la suspensión o eliminación
+              de la cuenta del usuario, sin previo aviso.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">4. Responsabilidad del usuario</h2>
-            <p>El usuario será el único responsable del uso que haga de su cuenta, incluyendo la protección de su
-              información personal y cualquier acción realizada en su cuenta. La empresa no se hace responsable de la
-              utilización indebida o fraudulenta de los datos personales proporcionados por el usuario. En caso de
-              incumplir las normas o realizar actividades ilegales, la empresa se reserva el derecho de informar a las
-              autoridades competentes.</p>
+            <h2 class="text-xl font-semibold">Comportamiento del Usuario en el Sitio</h2>
+            <p>El usuario se compromete a comportarse de manera respetuosa y educada con otros usuarios, evitando
+              cualquier forma de acoso, amenazas, o comportamiento destructivo. La empresa se reserva el derecho de
+              tomar medidas disciplinarias contra los usuarios que violen estas normas, incluyendo la expulsión de la
+              plataforma y el informe a las autoridades si es necesario.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">5. Propiedad de la información</h2>
-            <p>Al aceptar esta política, el usuario concede a la empresa el derecho de utilizar su nombre, imagen o
-              cualquier otra información proporcionada en el sitio web para fines relacionados con el funcionamiento de
-              la plataforma, tales como la promoción o la comunicación con otros usuarios. El usuario puede eliminar o
-              modificar su información en cualquier momento, conforme a los términos establecidos en la Política de
-              Privacidad.</p>
+            <h2 class="text-xl font-semibold">Registro de Cuenta y Protección de Datos</h2>
+            <p>Para utilizar el sitio, el usuario deberá registrarse proporcionando información personal precisa y
+              actualizada. El usuario es responsable de mantener la confidencialidad de su nombre de usuario y
+              contraseña, y de las actividades realizadas a través de su cuenta. Si sospecha de un acceso no autorizado,
+              debe notificarlo inmediatamente a la empresa para que se tomen las medidas adecuadas.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">6. Exclusión de responsabilidad</h2>
-            <p>La empresa no se hace responsable por cualquier daño directo o indirecto, pérdida de datos, acceso no
-              autorizado a la cuenta, o cualquier otro perjuicio derivado del uso del sitio. La plataforma no se
-              responsabiliza por el comportamiento de otros usuarios ni por la veracidad de los contenidos compartidos.
+            <h2 class="text-xl font-semibold">Precisión de la Información del Usuario</h2>
+            <p>Es responsabilidad del usuario asegurarse de que toda la información proporcionada en el sitio sea
+              precisa, completa y actual. La empresa no se hace responsable de los problemas derivados de la inexactitud
+              de los datos proporcionados por el usuario. En caso de que la empresa detecte información incorrecta o
+              incompleta, podrá suspender la cuenta del usuario hasta que se rectifique la información.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Responsabilidad del Usuario en su Cuenta</h2>
+            <p>El usuario asume total responsabilidad por el uso que haga de su cuenta, incluyendo la gestión de sus
+              datos personales y cualquier acción que se realice bajo su perfil. La empresa no será responsable de
+              pérdidas, daños o perjuicios derivados de la negligencia del usuario al gestionar su cuenta. El usuario se
+              compromete a indemnizar a la empresa en caso de que su cuenta sea utilizada de manera fraudulenta.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Uso de la Información Personal</h2>
+            <p>Al utilizar la plataforma, el usuario autoriza el uso de su información personal con fines operativos y
+              promocionales dentro de los límites establecidos en la Política de Privacidad. La empresa podrá utilizar
+              dicha información para personalizar la experiencia del usuario, y también podrá compartirla con terceros
+              bajo ciertas condiciones descritas en la política.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Retención y Eliminación de Datos</h2>
+            <p>El usuario podrá modificar o eliminar su información personal en cualquier momento, conforme a los
+              procedimientos establecidos en la Política de Privacidad. La empresa se compromete a eliminar los datos
+              del usuario si se solicita, salvo cuando sea necesario retenerlos por motivos legales o contractuales.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Propiedad Intelectual</h2>
+            <p>Todos los derechos de propiedad intelectual relacionados con el contenido del sitio, como textos,
+              gráficos, logotipos y software, son propiedad de la empresa o de sus licenciantes. El usuario no podrá
+              copiar, distribuir, modificar ni reproducir dicho contenido sin el consentimiento explícito de la empresa.
             </p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">7. Modificación y terminación del servicio</h2>
-            <p>La empresa se reserva el derecho de modificar o suspender temporal o permanentemente el acceso a la
-              plataforma en cualquier momento y por cualquier motivo, sin previo aviso. En caso de suspensión de cuenta,
-              el usuario será notificado por correo electrónico.</p>
+            <h2 class="text-xl font-semibold">Exclusión de Responsabilidad por Daños</h2>
+            <p>La empresa no será responsable de ningún daño directo o indirecto derivado del uso o la imposibilidad de
+              uso del sitio, incluyendo, pero no limitado a, daños por pérdida de datos, interrupción del servicio o
+              errores técnicos. El usuario asume toda la responsabilidad por el acceso y uso del sitio, y acepta que la
+              empresa no tiene control sobre los dispositivos o conexiones utilizados para acceder al servicio.</p>
           </div>
           <div>
-            <h2 class="text-xl font-semibold">8. Ley aplicable</h2>
-            <p>Este acuerdo se regirá e interpretará de acuerdo con las leyes del país en que se encuentra registrada la
-              empresa, y cualquier disputa se resolverá en los tribunales competentes.</p>
+            <h2 class="text-xl font-semibold">Modificación de Servicios</h2>
+            <p>La empresa se reserva el derecho de modificar, actualizar o suspender temporalmente el acceso al sitio o
+              sus servicios sin previo aviso. Esto puede hacerse por razones técnicas, de mantenimiento o cualquier otra
+              circunstancia que lo justifique. Los usuarios serán notificados sobre cambios significativos en los
+              servicios mediante correo electrónico o notificaciones en la plataforma.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Suspensión de Cuenta</h2>
+            <p>La empresa puede suspender la cuenta de un usuario en caso de que se detecte un incumplimiento de estos
+              términos y condiciones, o si se considera que el comportamiento del usuario afecta la integridad del
+              sitio. En caso de suspensión, el usuario será informado a través del correo electrónico proporcionado en
+              su registro, y se le ofrecerá la oportunidad de apelar la decisión si lo considera necesario.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Ley Aplicable y Jurisdicción</h2>
+            <p>Este acuerdo se regirá por las leyes del país en el que la empresa esté registrada, y cualquier disputa o
+              conflicto relacionado con el uso del sitio será resuelto en los tribunales competentes del país de
+              registro de la empresa.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Protección Contra Fraude</h2>
+            <p>La empresa tomará todas las medidas razonables para proteger al usuario contra fraudes y accesos no
+              autorizados. Sin embargo, la empresa no será responsable de los daños derivados de actividades
+              fraudulentas si el usuario no ha tomado las precauciones necesarias para proteger sus credenciales.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Derechos de Cancelación</h2>
+            <p>El usuario tiene el derecho de cancelar su cuenta en cualquier momento, conforme a las condiciones
+              establecidas en la Política de Privacidad. Al hacerlo, la empresa eliminará la cuenta y los datos
+              relacionados, excepto cuando se deba retener información por motivos legales o de seguridad.</p>
+          </div>
+
+          <div>
+            <h2 class="text-xl font-semibold">Acceso a los Servicios</h2>
+            <p>El acceso a los servicios de la plataforma puede ser restringido en ciertas regiones o países debido a
+              regulaciones locales. El usuario es responsable de asegurarse de que el uso del sitio cumpla con las leyes
+              aplicables en su jurisdicción.</p>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold">Notificaciones y Comunicaciones</h2>
+            <p>El usuario autoriza a la empresa a enviar notificaciones y comunicaciones importantes relacionadas con su
+              cuenta a través del correo electrónico registrado. Estas comunicaciones pueden incluir actualizaciones de
+              términos, alertas de seguridad y cambios en los servicios.</p>
           </div>
         </div>
       </section>
+
+
     </template>
   </MainLayout>
 </template>
