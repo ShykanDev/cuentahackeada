@@ -1,5 +1,6 @@
 <template>
   <div class="bg-slate-50 font-lexend">
+    <h2 class="text-3xl font-bold text-center text-sky-950">Bancos en Territorio Mexicano/Plataformas de Pago</h2>
     <div class="px-3 mx-auto mt-10 overflow-hidden bg-white rounded-lg shadow-2xl max-w-7xl ">
       <div class="md:flex">
         <div class="md:flex-shrink-0">
@@ -41,8 +42,9 @@
                   hackeos.</li>
               </ul>
             </li>
-            <a href="https://www.bbva.mx/" class="inline-block px-4 py-2 mt-4 text-white rounded bg-sky-950">Visitar
-              BBVA</a>
+            <button @click="systemValues.setPageToLeave('https://www.bbva.mx/', true)"
+              class="inline-block px-4 py-2 mt-4 text-white rounded bg-sky-950">Visitar
+              BBVA</button>
           </ol>
           </p>
         </div>
@@ -92,9 +94,9 @@
                   resolver problemas relacionados con fraudes o hackeos.</li>
               </ul>
             </li>
-            <a href="https://www.banamex.com/"
+            <button @click="systemValues.setPageToLeave('https://www.citibanamex.com.mx/', true)"
               class="inline-block px-4 py-2 mt-4 text-white rounded bg-cyan-800">Visitar
-              Citibanamex</a>
+              Citibanamex</button>
           </ol>
           </p>
         </div>
@@ -147,9 +149,9 @@
                   números de contacto proporcionados en sus plataformas oficiales.</li>
               </ul>
             </li>
-            <a href="https://www.santander.com.mx"
+            <button @click="systemValues.setPageToLeave('https://www.santander.com.mx', true)"
               class="inline-block px-4 py-2 mt-4 text-white bg-red-600 rounded">Visitar
-              Santander </a>
+              Santander </button>
           </ol>
           </p>
         </div>
@@ -180,8 +182,9 @@
               <li>Utilizar herramientas como el token móvil para autorizar transacciones.</li>
               <li>Recibir alertas de seguridad por movimientos sospechosos en tus cuentas.</li>
             </ul>
-            <a href="https://www.hsbc.com.mx" class="inline-block px-4 py-2 mt-4 text-white bg-red-600 rounded">Visitar
-              HSBC</a>
+            <button @click="systemValues.setPageToLeave('https://www.hsbc.com.mx', true)"
+              class="inline-block px-4 py-2 mt-4 text-white bg-red-600 rounded">Visitar
+              HSBC</button>
           </span>
         </div>
       </div>
@@ -211,8 +214,8 @@
               <li>Utilizar el token móvil y las alertas para asegurar tus transacciones.</li>
               <li>Activar el reconocimiento facial para mayor seguridad.</li>
             </ul>
-            <a href="https://www.scotiabank.com.mx"
-              class="inline-block px-4 py-2 mt-4 text-white bg-red-600 rounded">Visitar Scotiabank México</a>
+            <button @click="systemValues.setPageToLeave('https://www.scotiabank.com.mx', true)"
+              class="inline-block px-4 py-2 mt-4 text-white bg-red-600 rounded">Visitar Scotiabank México</button>
           </span>
         </div>
       </div>
@@ -242,8 +245,9 @@
               <li>Utilizar las notificaciones de seguridad para alertar de actividades sospechosas.</li>
               <li>Usar el reconocimiento facial y huella digital para asegurar el acceso a tus cuentas.</li>
             </ul>
-            <a href="https://www.inbursa.com" class="inline-block px-4 py-2 mt-4 text-white rounded bg-blue-950">Visitar
-              Inbursa</a>
+            <button @click="systemValues.setPageToLeave('https://www.inbursa.com.mx/', true)"
+              class="inline-block px-4 py-2 mt-4 text-white rounded bg-blue-950">Visitar
+              Inbursa</button>
           </span>
         </div>
       </div>
@@ -274,8 +278,9 @@
               <li>Revisar regularmente los movimientos de tus cuentas y tarjetas.</li>
               <li>Recibir alertas en tiempo real sobre cualquier actividad sospechosa.</li>
             </ul>
-            <a href="https://www.bancoazteca.com.mx"
-              class="inline-block px-4 py-2 mt-4 text-white bg-green-900 rounded">Visitar Banco Azteca</a>
+            <button @click="systemValues.setPageToLeave('https://www.bancoazteca.com.mx', true)"
+              class="inline-block px-4 py-2 mt-4 text-white bg-green-900 rounded">Visitar Banco Azteca
+            </button>
           </span>
         </div>
       </div>
@@ -285,6 +290,10 @@
 </template>
 
 <script lang="ts" setup>
+import { SystemValues } from '@/stores/SystemValues';
+
+const systemValues = SystemValues();
+
 
 </script>
 

@@ -4,6 +4,7 @@
       <HeaderComponent />
     </header>
     <main>
+      <PopUpExit v-if="systemValues.getShowPopupExit" class="font-lexend " />
       <slot name="main">
 
       </slot>
@@ -24,10 +25,11 @@
       </div>
       <div class="mb-8 text-center">
         <p class="mb-4 font-semibold text-gray-300">
-          Sitio gratuito y de uso exclusivo para revisar y compartir experiencias.
+          Sitio gratuito y seguro, usted al compartir sus experiencias ayuda a que otros usuarios no caigan en el mismo
+          fraude.
         </p>
         <p class="mb-4 text-gray-300">
-          Comparta sus experiencias con los demás, sea asesora del hogar o sea empleador, este sitio es gratuito y
+          Comparta sus experiencias con los demás, este sitio es gratuito y
           seguro.
         </p>
       </div>
@@ -50,7 +52,7 @@
         <RouterLink class="font-semibold text-white hover:text-gray-400" :to="{ name: 'login' }">
           Iniciar Sesión
         </RouterLink>
-        <RouterLink class="font-semibold text-white hover:text-gray-400" :to="{ name: 'home' }">
+        <RouterLink class="font-semibold text-white hover:text-gray-400" :to="{ name: 'privacy' }">
           Aviso de Privacidad
         </RouterLink>
         <RouterLink class="font-semibold text-white hover:text-gray-400" :to="{ name: 'terms' }">
@@ -75,6 +77,11 @@
 
 <script lang="ts" setup>
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import PopUpExit from '@/components/PopUpExit.vue';
+import { SystemValues } from '@/stores/SystemValues';
+
+
+const systemValues = SystemValues();
 </script>
 
 <style scoped></style>

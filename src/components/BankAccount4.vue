@@ -186,9 +186,11 @@
               <p>
                 ¡Alerta de Seguridad! Hemos detectado actividad sospechosa en su cuenta. Para verificar su cuenta, haga
                 clic en el siguiente enlace:
-                <a class="text-blue-500 underline" href="https://falsedominio.com/bbva">
-                  https://falsedominio.com/bbva
-                </a>
+                <button
+                  @click="SystemValues().setPageToLeave('https://www.bbva.mx/personas/centro-de-ayuda/ayuda-urgente.html', true)">
+                  <span
+                    class="text-blue-500 underline">https://www.bbva.mx/personas/centro-de-ayuda/ayuda-urgente.html</span>
+                </button>
               </p>
               <div class="flex justify-center">
                 <img alt="Captura de pantalla de un mensaje de texto de phishing de BBVA"
@@ -207,9 +209,11 @@
               <p>
                 ¡Actualización de Seguridad Requerida! Hemos detectado un intento de acceso no autorizado a su cuenta.
                 Para verificar su identidad, haga clic en el siguiente enlace:
-                <a class="text-blue-500 underline" href="https://falsedominio.com/gmail">
-                  https://falsedominio.com/gmail
-                </a>
+                <button
+                  @click="SystemValues().setPageToLeave('https://support.google.com/mail/answer/8253?hl=es-419', true)"
+                  class="text-blue-500 underline">
+                  <span>https://support.google.com/mail/answer/8253?hl=es-419</span>
+                </button>
               </p>
               <div class="flex justify-center">
                 <img alt="Captura de pantalla de un mensaje de texto de phishing de Gmail"
@@ -228,14 +232,16 @@
               <p>
                 ¡Problema con su Cuenta PayPal! Hemos detectado un problema con su cuenta que requiere su atención
                 inmediata. Para resolver el problema, haga clic en el siguiente enlace:
-                <a class="text-blue-500 underline" href="https://falsedominio.com/paypal">
-                  https://falsedominio.com/paypal
-                </a>
+                <button
+                  @click="SystemValues().setPageToLeave('https://www.paypal.com/mx/cshelp/topic/help_login_and_security_personal', true)"
+                  class="text-blue-500 underline">
+                  <span>https://www.paypal.com/</span>
+                </button>
               </p>
               <div class="flex justify-center">
                 <img alt="Captura de pantalla de un mensaje de texto de phishing de PayPal"
                   class="mt-4 rounded-lg shadow-lg" height="300"
-                  src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" width="420" />
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png " width="420" />
               </div>
             </div>
             <div class="p-6 bg-white rounded-lg shadow-lg">
@@ -248,9 +254,10 @@
               <p>
                 ¡Confirmación de Pedido Requerida! Hemos detectado un problema con su último pedido. Para confirmar su
                 pedido y evitar la cancelación, haga clic en el siguiente enlace:
-                <a class="text-blue-500 underline" href="https://falsedominio.com/amazon">
-                  https://falsedominio.com/amazon
-                </a>
+                <button
+                  @click="SystemValues().setPageToLeave('https://www.amazon.com/-/es/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B', true)">
+                  <span class="text-blue-500 underline">https://www.amazon.com/</span>
+                </button>
               </p>
               <div class="flex justify-center">
                 <img alt="Captura de pantalla de un mensaje de texto de phishing de Amazon"
@@ -389,6 +396,8 @@
 </template>
 
 <script lang="ts" setup>
+import { SystemValues } from '@/stores/SystemValues';
+
 
 </script>
 
