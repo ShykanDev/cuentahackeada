@@ -67,21 +67,21 @@
 
     <!-- Mobile Menu -->
     <div v-if="isMenuOpen" class="absolute left-0 w-full bg-sky-500 md:hidden top-full">
-      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
+      <RouterLink to="/" class="block px-3 py-2 hover:text-white hover:underline" href="">
         <i class="mr-1 fas fa-home"></i> Home
-      </a>
-      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
-        <i class="mr-1 fas fa-book"></i> Historias
-      </a>
-      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
-        <i class="mr-1 fas fa-lightbulb"></i> Consejos
-      </a>
-      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
-        <i class="mr-1 fas fa-sign-in-alt"></i> Iniciar sesión
-      </a>
-      <a class="block px-3 py-2 hover:text-white hover:underline" href="#">
+      </RouterLink>
+      <RouterLink to="/hackingTypes" class="block px-3 py-2 hover:text-white hover:underline" href="#">
+        <i class="mr-1 fas fa-book"></i> Tipos de hackeo
+      </RouterLink>
+      <RouterLink to="/comments" class="block px-3 py-2 hover:text-white hover:underline" href="#">
+        <i class="mr-1 fas fa-lightbulb"></i> Comentarios
+      </RouterLink>
+      <RouterLink to="/contact" class="block px-3 py-2 hover:text-white hover:underline" href="#">
+        <i class="mr-1 fas fa-sign-in-alt"></i> Contacto
+      </RouterLink>
+      <RouterLink to="/register" class="block px-3 py-2 hover:text-white hover:underline" href="#">
         <i class="mr-1 fas fa-user-plus"></i> Registrarse
-      </a>
+      </RouterLink>
     </div>
   </div>
 </template>
