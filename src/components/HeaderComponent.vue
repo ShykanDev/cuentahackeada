@@ -3,10 +3,21 @@
     class="sticky top-0 z-50 flex items-center justify-between w-full px-3 py-2 text-white rounded-b-lg bg-sky-600 md:py-3 font-poppins ">
     <!-- Logo -->
     <div class="flex items-center">
-      <img alt="Logo SSL" class="w-8 h-10 mr-2" src="../assets/sslwhite.png" />
-      <span class="text-xl font-bold text-white font-lexend">
-        www.antihackeo.com
-      </span>
+      <img alt="Logo SSL" class="w-8 h-10 mr-2 animate-fade-up" src="../assets/sslwhite.png" />
+      <a v-if="domain1" class="flex items-center rtl:space-x-reverse animate-fade-up">
+        <span class="text-xl font-bold text-blue-200 font-lexend">www.</span>
+        <span class="text-xl font-bold text-white font-lexend">anti</span>
+        <span class="text-xl font-bold text-yellow-400 font-lexend">hackeo</span>
+        <span class="text-xl font-bold text-green-100 font-lexend">.com</span>
+      </a>
+      <a v-if="domain2" class="flex items-center rtl:space-x-reverse animate-fade-down">
+        <span class="text-xl font-bold text-blue-200 font-lexend">www.</span>
+        <span class="text-xl font-bold text-yellow-200 font-lexend">miciber</span>
+        <span class="text-xl font-bold text-red-200 font-lexend">seguridad</span>
+        <span class="text-xl font-bold text-green-200 font-lexend">.com</span>
+      </a>
+
+
     </div>
 
     <!-- Navigation Menu -->
@@ -76,7 +87,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { RouterLink } from 'vue-router';
 
 const isMenuOpen = ref(false);
@@ -84,6 +95,20 @@ const isMenuOpen = ref(false);
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
+
+
+const domain1 = ref(true)
+const domain2 = ref(false)
+
+const toggleDomain = () => {
+  domain1.value = !domain1.value;
+  domain2.value = !domain2.value
+}
+
+
+onMounted(() => {
+  setInterval(toggleDomain, 4000)
+})
 </script>
 
 <style scoped>

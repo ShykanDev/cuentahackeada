@@ -50,9 +50,52 @@
       <BankAccount2 />
       <BankAccount3 />
       <BankAccount4 />
-      <ContactBank />
+      <ContactBank class="mb-4" />
       <!--  -->
-
+      <section class="p-6 my-2 bg-white rounded-lg shadow-lg">
+        <h2 class="mb-6 text-3xl font-bold text-gray-800">
+          Publicidad
+        </h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+          <a class="relative block w-full overflow-hidden bg-white rounded-lg shadow-md"
+            href="https://www.negocioamerica.com">
+            <img alt="Imagen representativa de negocioamerica.com sobre oportunidades de negocio en América"
+              class="object-cover w-full h-48" height="300"
+              src="https://storage.googleapis.com/a1aa/image/4m0uqJZi4iLrFFI7z6FLbgvuhTdGT6qfSWiCLwVgeoKBfkDoA.jpg"
+              width="400" />
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div class="p-4 text-lg font-bold text-center text-white">
+                negocioamerica.com - Oportunidades de negocio en América. Encuentra y comparte oportunidades de negocio
+                en el continente americano.
+              </div>
+            </div>
+          </a>
+          <a class="relative block w-full overflow-hidden bg-white rounded-lg shadow-md"
+            href="https://www.harekrishna.com.mx">
+            <img alt="Imagen representativa de harekrishna.com.mx sobre la comunidad Hare Krishna en México"
+              class="object-cover w-full h-48" height="300"
+              src="https://storage.googleapis.com/a1aa/image/lmj2Wto0QaYWCBnafTi87fAckrJlS8xXyNQXbT8T33ODfkDoA.jpg"
+              width="400" />
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div class="p-4 text-lg font-bold text-center text-white">
+                harekrishna.com.mx - Comunidad Hare Krishna en México. Conoce más sobre la comunidad y sus actividades
+                en México.
+              </div>
+            </div>
+          </a>
+          <div class="relative block w-full overflow-hidden bg-gray-300 rounded-lg shadow-md">
+            <img alt="Imagen de marcador de posición para publicidad pendiente" class="object-cover w-full h-48"
+              height="300"
+              src="https://storage.googleapis.com/a1aa/image/71VKezwjf4vLr03w4MqrhD1024UCUeeKAQi2Ghfew3UUxncAF.jpg"
+              width="400" />
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+              <div class="p-4 text-lg font-bold text-center text-white">
+                Publicidad pendiente
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
