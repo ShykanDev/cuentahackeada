@@ -99,7 +99,11 @@
 
 
 
-
+      <h2 class="mb-6 text-5xl font-bold text-center text-gray-800 my-7">Noticias</h2>
+      <section class="flex flex-wrap justify-center gap-4">
+        <NewsCard v-for="news in newsArray" :key="news.title" :title="news.title" :desc="news.desc" :href="news.href"
+          :img="news.img" />
+      </section>
 
     </template>
   </MainLayout>
@@ -114,6 +118,42 @@ import BankAccount3 from '@/components/BankAccount3.vue';
 import BankAccount4 from '@/components/BankAccount4.vue';
 import { RouterLink } from 'vue-router';
 import ContactBank from '@/components/ContactBank.vue';
+import NewsCard from '@/components/NewsCard.vue';
+
+
+const newsArray = [
+  {
+    title: "Tu correo electrónico podría no ser seguro: descubren millones de servidores sin cifrado habilitado",
+    desc: "Puede que tus correos electrónicos estén cada vez más cerca de ser interceptados por los ciberdelincuentes. Muchos hosts de correo electrónico no son del todo seguros.",
+    href: "https://computerhoy.20minutos.es/ciberseguridad/correo-electronico-podria-no-ser-seguro-descubren-millones-servidores-cifrado-habilitado-1433775",
+    img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2025/01/phishing-email-4279390.jpg?tf=1200x"
+  },
+  {
+    title: "\"Agrégame a WhatsApp\", la peligrosa estafa que puede dejar vacía tu cuenta corriente",
+    desc: "Debes conocer como sea la nueva estafa de “agrégame a WhatsApp” que está afectando a muchas personas. En esto consiste y qué debes hacer para evitarla.",
+    href: "https://computerhoy.20minutos.es/ciberseguridad/agregame-whatsapp-peligrosa-estafa-puede-dejar-vacia-cuenta-corriente-1433739",
+    img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/10/estafas-whatsapp-disparan-consejos-rapidos-sencillos-protegerte-4249934.jpg?tf=1200x"
+  },
+  {
+    title: "El timo de la llamada perdida sigue activo en 2025: cuidado si ves estos prefijos en tu móvil",
+    desc: "La estafa de la llamada perdida, también conocido como \"Wangiri\", esta clásica estafa vuelve a estar de máxima actualidad: esto es lo que tienes que saber para no caer en la trampa de nuevo.",
+    href: "https://computerhoy.20minutos.es/ciberseguridad/timo-llamada-perdida-sigue-activo-2025-cuidado-ves-estos-prefijos-movil-1433516",
+    img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/11/estafa-bizum-alerta-guardia-civil-mucho-cuidado-no-caer-trampa-4260044.jpg?tf=1200x"
+  },
+  {
+    title: "\"Ni con tu teclado\": Búsquedas en Google que los expertos en seguridad evitan hacer a toda costa",
+    desc: "Si bien Google es una herramienta indispensable en nuestro día a día, es fundamental ser conscientes de los peligros y amenazas que se esconden tras las búsquedas. El SEO poisoning es una técnica usada por ciberdelincuentes para engañarte y robar tu información.",
+    href: "https://computerhoy.20minutos.es/ciberseguridad/ni-teclado-busquedas-google-expertos-seguridad-evitan-hacer-toda-costa-1427868",
+    img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/12/ni-teclado-busquedas-google-expertos-seguridad-evitan-hacer-toda-costa-4269725.jpg?tf=1200x"
+  },
+  {
+    title: "Los expertos en seguridad no puede ser más claros: NO respondas a este mensaje de Google",
+    desc: "Siguiendo estas recomendaciones de expertos en seguridad, puedes reducir significativamente el riesgo de caer en la estafa de Google y proteger tu información personal y financiera. Los estafadores pueden hacerse de tus datos en minutos a través de Google Calendar.",
+    href: "https://computerhoy.20minutos.es/ciberseguridad/expertos-seguridad-no-puede-ser-claros-no-respondas-mensaje-google-1432964",
+    img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/12/expertos-seguridad-no-puede-ser-claros-no-respondas-mensaje-google-4278261.jpg?tf=1200x"
+  }
+]
+
 </script>
 
 <style scoped></style>
